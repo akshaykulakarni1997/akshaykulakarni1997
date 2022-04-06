@@ -1,0 +1,42 @@
+vgecj5f-ym1Lek1qVYqN
+
+glpat-GZjsJVaQtWJAeFTSitPy
+
+
+
+t4g3mhzy-xaaLGT-6c_Z
+
+
+now --- HofYDsSkLf8a9RKoTiM4
+
+
+
+ybM9CQYy692xUDqJrqCh
+
+
+
+
+7qt4t6f4eoxc0h76ratuzpysc
+
+
+
+Check out, review, and merge locally
+
+Step 1. Fetch and check out this merge request's feature branch:
+
+git fetch origin
+git checkout -b '7-set-up-ci-cd' 'origin/7-set-up-ci-cd'
+
+Step 2. Review the changes locally.
+
+Step 3. Merge the feature branch into the target branch and fix any conflicts. How do I fix them?
+
+git fetch origin
+git checkout 'master'
+git merge --no-ff '7-set-up-ci-cd'
+
+Step 4. Push the target branch up to GitLab.
+
+git push origin 'master'
+
+Tip: You can also check out merge requests locally. Learn more.
